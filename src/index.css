@@ -1,0 +1,15 @@
+@import './styles/components/Modal.css';
+@import './styles/components/Character.css';
+@import './styles/components/Searcher.css';
+@import './styles/components/Card.css';
+@import './styles/components/CardModal.css';
+@import './styles/components/Loading.css';
+
+body {
+    background-color: #464646;
+    background-image: url(./imgs/backgroundhome.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}

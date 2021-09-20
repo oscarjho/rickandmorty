@@ -1,0 +1,45 @@
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000E;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  z-index: 999999;
+}
+
+.modal_container {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+}
+
+.modal_container .row{
+  width: 1200px;
+  
+}
+
+
+@media (max-width: 992px){
+  .modal {
+
+  }
+
+  .modal_container {
+    height: auto;
+  }
+
+  .modal_container .row{
+    width:347px;    
+  }
+
+  
+
+  
+
+}
